@@ -52,7 +52,7 @@
     + #### 大表哥
         + 升龙拳闪拳
             ```
-            click 848,407 # 按完传送，老鼠的位置
+            click 848,407 # 按完传送，老鼠头像的位置
             sleep 1580
             click 1065,310 # 道具键
             curve 1000,374 997,298 # 拳头的位置
@@ -67,6 +67,25 @@
             click 985,372  # 拳头的位置
             sleep 280
             click 1103,311 # 道具键
+            ```
+        + 踏空
+            ```
+            click 898,432 # 按完传送，老鼠头像的位置
+            sleep 1580
+            click 1128,329 # 道具键
+            loop 5
+            click 1138,471 # 跳跃键
+            sleep 2
+            loop_end
+            loop 15
+            click 906,315 # 交互键
+            sleep 1
+            loop_end
+            sleep 600
+            loop 30
+            click 868,529 # 漂浮键
+            sleep 2
+            loop_end
             ```
         + 游龙拳
             ```
